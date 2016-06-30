@@ -1,0 +1,16 @@
+set imap_user = "cziethen@gmail.com"
+set imap_pass = ""
+set from = "Christian Ziethén <cziethen@gmail.com>"
+set realname = "Christian Ziethén"
+set hostname = gmail.com
+set folder = "~/mail/archive/gmail_com/
+set spoolfile = "~/mail/archive/gmail_com/INBOX"
+set postponed = ""
+set record = ""
+set smtp_url = ""
+#set folder = "imaps://cziethen@imap.gmail.com:993"
+#set spoolfile = "imaps://cziethen@imap.gmail.com/INBOX"
+#set postponed = "imaps://cziethen@imap.gmail.com/[Gmail]/Drafts"
+#set record = "imaps://cziethen@imap.gmail.com/[Gmail]/Sent Mail"
+#set smtp_url = "smtp://cziethen@smtp.gmail.com:587"
+#set smtp_pass = ""

@@ -1,0 +1,28 @@
+set mbox_type="Maildir"
+#set folder=~/.mail
+set header_cache=~/.mutt_cache
+set timeout=10
+set mail_check=5
+set editor='vim'
+set visual='vim'
+set send_charset="us-ascii:utf-8"
+set charset="utf-8"
+set locale="sv_SE.utf8"
+mailboxes =INBOX
+alternative_order text/plain text/calendar text/html
+auto_view text/html text/calendar
+## Format-strings
+                source ~/.mutt/formats
+
+## Colors/Themes
+                source ~/.mutt/themes/current
+
+## keybindings
+                source ~/.mutt/keybindings
+
+## Default account
+source "~/.mutt/account.christian.ziethen.linaro"
+## Macros for switching accounts
+macro index <f2> '<sync-mailbox><enter-command>source ~/.mutt/account.christian.ziethen.linaro<enter><change-folder>!<enter>'
+macro index <f3> '<sync-mailbox><enter-command>source ~/.mutt/account.cziethen.gmail<enter><change-folder>!<enter>'
+macro index <f4> '<sync-mailbox><enter-command>source ~/.mutt/account.christian.ziethen.enea<enter><change-folder>!<enter>'

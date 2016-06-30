@@ -1,0 +1,16 @@
+set imap_user = "christian.ziethen@linaro.org"
+set imap_pass = ""
+set from="Christian Ziethén <christian.ziethen@linaro.org>"
+set realname = "Christian Ziethén"
+set hostname = gmail.com
+#set folder = "~/mail/archive/linaro_org/
+#set spoolfile = "~/mail/archive/linaro_org/INBOX"
+#set postponed = ""
+#set record = ""
+#set smtp_url = ""
+set folder = "imaps://christian.ziethen@linaro.org@imap.gmail.com:993"
+set spoolfile = "imaps://christian.ziethen@linaro.org@imap.gmail.com/INBOX"
+set postponed = "imaps://christian.ziethen@linaro.org@imap.gmail.com/[Gmail]/Drafts"
+set record = "imaps://christian.ziethen@linaro.org@imap.gmail.com/[Gmail]/Sent Mail"
+set smtp_url = "smtp://christian.ziethen@linaro.org@smtp.gmail.com:587"
+set smtp_pass = ""

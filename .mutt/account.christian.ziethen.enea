@@ -1,0 +1,10 @@
+set imap_user = "christian.ziethen@enea.com"
+set imap_pass = ""
+set from = "Christian Ziethén <christian.ziethen@enea.com>"
+set realname = "Christian Ziethén"
+set hostname = mail.enea.com
+set folder = "~/mail/archive/enea_mail/
+set spoolfile = "~/mail/archive/enea_mail/INBOX"
+set postponed = ""
+set record = ""
+set smtp_url = ""
